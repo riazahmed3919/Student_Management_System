@@ -44,6 +44,7 @@ class Student:
 StudentDatabase.add_student('S001', 'Johnny Depp', 'CSE', True)
 StudentDatabase.add_student('S002', 'Robert Downey Jr', 'EEE', False)
 StudentDatabase.add_student('S003', 'Tom Hardy', 'BBA', True)
+StudentDatabase.add_student('S004', 'Rowan Atkinson', 'EEE', False)
 
 
 # Replica System

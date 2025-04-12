@@ -74,7 +74,7 @@ while True:
             print(f'Invalid student id: {student_id}')
 
     elif choice == 3:
-        student_id = input('Enter Student ID to enroll: ')
+        student_id = input('Enter Student ID to drop: ')
         student = StudentDatabase.find_student_id(student_id)
 
         if student:
@@ -87,4 +87,4 @@ while True:
         break
 
     else:
-        print("Invalid choice. Please enter (1-4).")
+        print("Invalid choice. Please enter a number between 1 and 4.")
